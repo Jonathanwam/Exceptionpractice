@@ -1,0 +1,11 @@
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\bin\Debug\netcoreapp2.1\exceptionpractice.deps.json
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\bin\Debug\netcoreapp2.1\exceptionpractice.runtimeconfig.json
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\bin\Debug\netcoreapp2.1\exceptionpractice.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\bin\Debug\netcoreapp2.1\exceptionpractice.dll
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\bin\Debug\netcoreapp2.1\exceptionpractice.pdb
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\obj\Debug\netcoreapp2.1\exceptionpractice.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\obj\Debug\netcoreapp2.1\exceptionpractice.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\obj\Debug\netcoreapp2.1\exceptionpractice.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\obj\Debug\netcoreapp2.1\exceptionpractice.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\obj\Debug\netcoreapp2.1\exceptionpractice.dll
+C:\Users\Jonathan\Documents\Revature\exceptionpractice\obj\Debug\netcoreapp2.1\exceptionpractice.pdb
