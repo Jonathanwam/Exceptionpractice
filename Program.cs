@@ -47,7 +47,7 @@ namespace exceptionpractice
             }
             void B() {
                 C();
-                Console.Write("test B\n"); // should not run this line
+                Console.Write("test B\n"); // should not run this line since there is no trycatch in this method
             }
             void C() {
                 throw new Exception("error\n");
