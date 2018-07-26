@@ -11,10 +11,12 @@ namespace exceptionpractice
             int[] nums = new int[3]{1,2,3};
             try
             {
-                throw new CustomException();
-                throw new CustomException("This is even more customized!");
-                Console.Write($"{i/j}");
-                Console.Write("Out of index num?" + nums[5] + "\n");
+                // throw new CustomException(); // making custom exceptions
+                // throw new CustomException("This is even more customized!");
+                // Console.Write($"{i/j}"); // can't divide by zero exception
+                // Console.Write("Out of index num?" + nums[5] + "\n"); // dealing with out of index exception
+                A(); // example of trycatch hierarchy
+                Console.Write("Main method after calling A() method\n");
             }
             catch (DivideByZeroException ex)
             {
@@ -30,6 +32,26 @@ namespace exceptionpractice
             }
 
             Console.Write("Out of the try-catch");
+
+
+            void A() {
+                try
+                {
+                    B();
+                }
+                catch (Exception ex)
+                {
+                    Console.Write($"Caught error within A() method: {ex}\n");
+                }
+                Console.Write("Test A\n");
+            }
+            void B() {
+                C();
+                Console.Write("test B\n"); // should not run this line
+            }
+            void C() {
+                throw new Exception("error\n");
+            }
         }
     }
 }
